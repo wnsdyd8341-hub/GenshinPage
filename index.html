@@ -368,7 +368,7 @@
     
     const taps = document.querySelector(".tap");
         taps.innerHTML = tourists.map((t,index)=>{
-            return `<div class = "tournav ${index===0?"active":""}"> ${t.title} </div>`;
+            return `<div class = "tournav ${index===0?"active":""}"> <p>${t.title}</p> </div>`;
             console.log(index);
             
         }).join("");

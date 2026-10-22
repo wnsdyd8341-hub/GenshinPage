@@ -58,14 +58,17 @@ p{
 .tap{
     width: 100%;
     align-items: center;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(8,minmax(0,1fr));
     margin: 3% auto;
     background-color: antiquewhite;
+    /* 갭고민 */
+    gap: 1%;
 }
 .tournav{
-    flex: 1;
+    
     text-align: center;
-    padding: 1%;
+    padding: 5g%;
     transition: all 0.3s;
     width: 100%;
     margin: auto;
