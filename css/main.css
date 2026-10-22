@@ -1,0 +1,194 @@
+h1{
+    font-size: clamp(26px,2vw,28px);
+}
+h2{
+    font-size: clamp(14px,2vw,22px);
+}
+h3{
+    font-size: clamp(12px,1vw,20px);
+}
+p{
+    font-size: clamp(10px,1vw,16px);
+    
+}
+
+
+.swiper , .mySwiper2  {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-slide .textArea{
+    position:absolute;
+    top:23% ;
+    left: 46%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.touristArea{
+    padding: 6%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* tourlistArea css 모음 */
+.tap{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    margin: 3% auto;
+    background-color: antiquewhite;
+}
+.tournav{
+    flex: 1;
+    text-align: center;
+    padding: 1%;
+    transition: all 0.3s;
+    width: 100%;
+    margin: auto;
+}  
+.tournav:hover , .tournav.active{
+    background-color: rgb(252,182,90);
+    cursor: pointer;
+}
+.tourcard{
+    display: none;
+    width: 100%;
+}
+.tourcard p{
+    text-align: center;
+}
+.tourcard h2{
+    padding: 3%;
+}
+.tourcard img{
+    width: 100%;
+    height: 150px;
+    max-height: 150px;
+    display: block;
+}
+#tcardArea{ 
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    overflow: hidden;
+    gap: 1%;
+}
+.tourcard.active{
+    display: flex;
+    flex-direction: column;
+}
+.tourcard h2{
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow-y: auto;
+}
+
+.tourTextBox{
+    padding: 5%;
+    text-align: center; 
+}
+
+.card{
+    width: calc((100%-40px)/3);
+    height: clamp(200px , 2vw , 300px);
+   
+    display: flex;
+
+    background-color: azure;
+    padding: 20px 30px;
+    gap: 20px;
+    align-items: center;
+}
+.monsterimgbox{
+    width: 50%;
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.monsterArea h2{
+    margin-bottom: 2%;
+}
+
+.monsterText{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+}
+.monsterText p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; 
+    -webkit-box-orient: vertical;
+}
+
+.monsterArea{
+    background-color: #fadbdb;
+    padding: 3%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    
+}
+
+
+
+.infobox{
+    width: 60%;
+    height: 300px;
+    background-color: rgba(0,0,0,10%);
+    position: absolute;
+    display: none;
+}
+.foodArea{
+    width: 80%;
+    margin: auto;
+    padding: 3%;
+    text-align:center;
+}
+
+
+.foodBox{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap: 1%;
+}
+.foodBox img{
+    width: 100%;
+}
+
+.leftfood , .rightfood{
+    display:grid;
+    gap: 2%;
+    grid-template-rows: repeat(2,minmax(0,1fr));
+}

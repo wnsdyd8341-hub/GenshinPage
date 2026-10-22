@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin페이지</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
+    />
+    
+
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="logoArea">
+                <a href="#"><img src="Images/Genshin_Logo.webp" alt="원신 로고"></a>
+                <p>원신</p>
+            </div>
+            <nav>
+                <a href="#">몬드</a>
+                <a href="#">리월</a>
+                <a href="#">이나즈마</a>
+                <a href="#">수메르</a>
+                <a href="#">폰타인</a>
+                <a href="#">나타</a>
+                <a href="#">노드크라이</a>
+                <a href="#">스네즈나야</a>
+            </nav>
+            <div class="hamburger" id="hamberger">
+                <!-- span은 햄버거처럼 보일려고 만듬 -->
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="mobil_menu" id="mobile-menu">
+                <ul>
+                    <li><a href="#">몬드</a></li>
+                    <li><a href="#">리월</a></li>
+                    <li><a href="#">이나즈마</a></li>
+                    <li><a href="#">수메르</a></li>
+                    <li><a href="#">폰타인</a></li>
+                    <li><a href="#">나타</a></li>
+                    <li><a href="#">노드크라이</a></li>
+                    <li><a href="#">스네즈나야 </a></li>
+                </ul>
+            </div>
+            <!-- 어두운 영역 -->
+            <div class="overlay">
+
+            </div>
+
+        </header>
+
+        <main>
+            <div class="mainImgArea">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="Images/mond.png" alt="">
+                        <div class="textArea">
+                            <h3>자유의 도시</h3>
+                            <h1>몬드</h1>
+                            <p>바람과 목가의 도시</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Images/Liyue.png" alt="">
+                        <div class="textArea">
+                            <h3>바위의 땅</h3>
+                            <h1>리월</h1>
+                            <p>바위와 계약의 항구</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Images/Inazuma.png" alt="">
+                        <div class="textArea">
+                            <h3>번개의 나라</h3>
+                            <h1>이나즈마</h1>
+                            <p>번개와 영원의 군도</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Images/Sumeru.png" alt="">
+                        <div class="textArea">
+                            <h3>풀의 나라</h3>
+                            <h1>수메르</h1>
+                            <p>심오한 지식이 숨겨진 우림</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Images/Fontaine.png" alt="">
+                        <div class="textArea">
+                            <h3>물의도시</h3>
+                            <h1>폰타인</h1>
+                            <p>춤추는 샘의 흰 이슬</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Images/Natlan.png" alt="">
+                        <div class="textArea">
+                            <h3>불의 나라</h3>
+                            <h1>나타</h1>
+                            <p>불타는 각축과 맹약의 땅</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Images/Nod-Krai.png" alt="">
+                        <div class="textArea">
+                            <h3>스네즈나야 변방</h3>
+                            <h1>노드크라이</h1>
+                            <p>달과 유랑의 낙원</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Images/Snezhnaya.png" alt="">
+                        <div class="textArea">
+                            <h3>얼음의땅</h3>
+                            <h1>스네즈나야</h1>
+                            <p>얼음과 창백한 별의 성</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+            <div class="touristArea">
+                <div class="tap"></div>
+            <!-- 탭으로 다른지역보이게 만들기 -->
+                <div class="content tourImage">
+
+                <!-- js에서 내용삽입 -->   
+                </div>
+            </div>
+            <div class="infobox">
+                <p>이름</p>
+                <p>몬스터설명 : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, magnam.</p>
+                <p>드랍템</p>
+            </div>
+
+            <!-- 몬스터 부분부터 코딩 figma 참고 사진 새로 넣어야함 -->
+            <div class="monsterArea">
+                <h2>Cute Monster</h2>
+
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="monsterimgbox">
+                                    <img src="Images/물슬라임.png" alt="">
+                                </div>
+                                <div class="monsterText">
+                                    <h2>물 슬라임</h2>
+                                    <p>자연 속에 흩어져있던 물 원소가 침적되어 형성된 조그만 마물</p>
+                                    <button id="monsterinfo">자세히보기</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="monsterimgbox">
+                                    <img src="Images/20261022003448.png" alt="">
+                                </div>
+                                <div class="monsterText">
+                                    <h2>물 슬라임</h2>
+                                    <p>자연 속에 흩어져있던 물 원소가 침적되어 형성된 조그만 마물</p>
+                                    <button id="monsterinfo">자세히보기</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="monsterimgbox">
+                                    <img src="Images/20261022003947.png" alt="">
+                                </div>
+                                <div class="monsterText">
+                                    <h2>물 슬라임</h2>
+                                    <p>자연 속에 흩어져있던 물 원소가 침적되어 형성된 조그만 마물</p>
+                                    <button id="monsterinfo">자세히보기</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="monsterimgbox">
+                                    <img src="Images/20261022004156.png" alt="">
+                                </div>
+                                <div class="monsterText">
+                                    <h2>물 슬라임</h2>
+                                    <p>자연 속에 흩어져있던 물 원소가 침적되어 형성된 조그만 마물</p>
+                                    <button id="monsterinfo">자세히보기</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                
+            </div>
+
+            <div class="foodArea">
+                <h2>Local Specialties</h2>
+                <div class="foodBox">
+                    <div class="leftfood">
+                        <img src="Images/20261022003947.png" alt="">
+                        <img src="Images/20261022004101.png" alt="">
+                    </div>
+                    <div class="swiper FoodSwiperArea">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="Images/Fontaine4.png" alt=""></div>
+                            <div class="swiper-slide"><img src="Images/Fontaine3.png" alt=""></div>
+                            <div class="swiper-slide"><img src="Images/Fontaine2.png" alt=""></div>
+                            <div class="swiper-slide"><img src="Images/Fontaine.png" alt=""></div>
+                        </div> 
+                    </div>
+                    <div class="rightfood">
+                        <img src="Images/20261022004156.png" alt="">
+                        <img src="Images/20261022004553.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+
+        <footer>
+            <p>aaa</p>
+            <p>aaa</p>
+            <p>aaa</p>
+            <p>aaa</p>
+
+        </footer>
+
+
+    </div> 
+        
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.mySwiper', {
+            pagination: {
+            el: '.swiper-pagination',
+            dynamicBullets: true,
+            clickable: true,
+            loop: true,
+            },
+            autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+            },
+        });
+    var monsterswiper = new Swiper('.mySwiper2', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        freeMode: true,
+
+        breakpoints: {
+            390: {
+                slidesPerView: 2,
+                spaceBetween: 15
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 20
+            }
+        },
+        pagination: {
+            el: '.mySwiper2 .swiper-pagination',
+            dynamicBullets: true,
+            clickable: true
+        },
+        navigation: {
+            nextEl: '.mySwiper2 .swiper-button-next',
+            prevEl: '.mySwiper2 .swiper-button-prev'
+        }
+    });
+            
+
+        var foodswiper = new Swiper('.FoodSwiperArea', {
+        centeredSlides: true,
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        },
+    });
+
+    // 투어리스트 2차원배열
+    // 탭을 사용해서 2차원배열로 사용
+    const tourists = [
+        {
+        title : "몬드", 
+        map : [{name : "바람이 시작되는곳" , url :"Images/mond1.png"},
+        {name : "드래곤 스파인" , url :"Images/mond2.png"},
+        {name : "바람 드래곤의 폐허" , url :"Images/mond4.png"}
+        ,{name : "공간의 신전" , url :"Images/mond3.png"}],
+        content:"티바트 대륙 북동쪽에 위치한 자유의 도시 산과 드넓은 평원 사이로 민들레 향기를 가득 머금은 자유의 바람이  시드르 호수 위로 불며 호수 중앙의 섬에 위치한 몬드성에 바람 신 바르바토스의 축복과 은혜를 가져다준다."
+        },
+        {
+        title : "리월", 
+        map : [{name : "바람이 시작되는곳" , url :"Images/Liyue1.png"},
+        {name : "드래곤 스파인" , url :"Images/Liyue2.png"},
+        {name : "바람 드래곤의 폐허" , url :"Images/Liyue3.png"}
+        ,{name : "공간의 신전" , url :"Images/Liyue4.png"}],
+        content:"티바트 대륙 동쪽에 위치한 풍요로운 항구 도시.우뚝 솟아있는 산기슭과 석림, 생기 넘치는 강가와 드넓은 평원이 만든 리월의 다양한 지형은 계절마다 다채로운 풍경을 보여준다.산과 돌이 이뤄낸 장관 속엔 얼마나 많은 바위 신의 오랜 선물들이 사람들을 기다리고 있을까?"    
+        },
+        {
+        title : "이나즈마", 
+        map : [{name : "바람이 시작되는곳" , url :"Images/Inazuma1.png"},
+        {name : "드래곤 스파인" , url :"Images/Inazuma2.png"},
+        {name : "바람 드래곤의 폐허" , url :"Images/Inazuma3.png"}
+        ,{name : "공간의 신전" , url :"Images/Inazuma4.png"}],
+        content:"티바트 대륙 극동에 위치한 봉쇄된 제도끝없는 뇌우를 뚫고 벚꽃의 가호가 서린 열도에 들어서면 둘러싸인 사취, 우뚝 솟은 절벽 그리고 그윽한 산속에서 위대하신 나루카미 쇼군이 추구하는 영원을 확인할 수 있다."
+        },
+        {
+        title : "수메르", 
+        map : [{name : "바람이 시작되는곳" , url :"Images/Sumeru1.png"},
+        {name : "드래곤 스파인" , url :"Images/Sumeru2.png"},
+        {name : "바람 드래곤의 폐허" , url :"Images/Sumeru3.png"}
+        ,{name : "공간의 신전" , url :"Images/Sumeru4.png"}],
+        content:"티바트 대륙 중서부에 위치한 학술의 도시.우거진 우림과 황량한 사막이 공존하는 신비한 나라. 무수한 지혜의 열매가 이곳에서 자라나고 묻혔다. 숲을 가로질러 학술의 계단을 오르든 사막 깊은 곳에서 적토의 유적을 발굴하든, 먼 곳에서 온 여행자는 모두 이곳에서 귀중한 지혜를 얻을 수 있을 것이다."
+        },
+        {
+        title : "폰타인", 
+        map : [{name : "바람이 시작되는곳" , url :"Images/Fontaine1.png"},
+        {name : "드래곤 스파인" , url :"Images/Fontaine2.png"},
+        {name : "바람 드래곤의 폐허" , url :"Images/Fontaine3.png"}
+        ,{name : "공간의 신전" , url :"Images/Fontaine4.png"}],
+        content:"티바트 중부에 있는 지상의 바다.물의 흐름을 따라 들판과 깊은 숲, 모래바다를 지나면 대륙의 물줄기가 시작된 땅에 도착한다. 폭포 정상과 고원 위에 위치한 바다 도시의 깊은 곳에서, 들어본 적 없는 이야기와 오래전에 잊힌 전설이 물속에 가라앉아 사라져 버린 나라처럼 여행자를 갈망하고 있다."
+        },
+        {
+        title : "나타", 
+        map : [{name : "바람이 시작되는곳" , url :"Images/Natlan1.png"},
+        {name : "드래곤 스파인" , url :"Images/Natlan2.png"},
+        {name : "바람 드래곤의 폐허" , url :"Images/Natlan3.png"}
+        ,{name : "공간의 신전" , url :"Images/Natlan.png"}],
+        content:"티바트 대륙 서부에 위치한 맹세의 나라.불빛의 인도를 따라 협곡과 계곡을 지나면 펼쳐지는 그곳은 찬란한 횃불이 타오르는 땅이자, 만인의 불꽃이 하나 되는 곳이다.용들이 활보하는 드넓은 평원에서 어둠에 맞서는 용사들과 함께 고대 전쟁의 끝을 지켜보도록 하자."
+        },
+        {
+        title : "노드크라이", 
+        map : [{name : "바람이 시작되는곳" , url :"Images/Nod-Krai1.png"},
+        {name : "드래곤 스파인" , url :"Images/Nod-Krai2.png"},
+        {name : "바람 드래곤의 폐허" , url :"Images/Nod-Krai3.png"}
+        ,{name : "공간의 신전" , url :"Images/Nod-Krai4.png"}],
+        content:"티바트 대륙 서북부에 위치한 달빛의 땅.새로운 달이 자아낸 은빛 실을 따라 매서운 칼바람과 황량한 툰드라를 가로지르면, 부서진 거울과도 같은 호수 위로 반사되는 영원불변의 서릿빛 광채가 시야에 들어온다. 낮은 춥고 짧지만… 기나긴 밤이 찾아오면 달빛과 노랫소리가 부드럽게 여행객의 뺨을 어루만진다. 자, 이제 드높은 탑에 불을 밝히자. 진정한 달빛이 이 땅을 비추는 그날까지."
+        },
+        {
+        title : "스네즈나야", 
+        map : [{name : "바람이 시작되는곳" , url :"Images/Snezhnaya1.png"},
+        {name : "드래곤 스파인" , url :"Images/Snezhnaya2.png"},
+        {name : "바람 드래곤의 폐허" , url :"Images/Snezhnaya3.png"}
+        ,{name : "공간의 신전" , url :"Images/Snezhnaya4.png"}],
+        content:"티바트 대륙 북부에 위치한 영원한 겨울의 나라.이곳의 백성들은 혹한도, 재앙도 두려워하지 않는다. 그들은 포효하는 눈보라를 뚫고, 침묵이 내려앉은 장엄한 설원을 지나——강철과 강철이 부딪히는 도시 너머의… 신조차 외면한 혹독한 겨울을 향해 나아간다. 고개를 들어 티끌 한 점 없는 창백한 별을 바라보라. 비록 혹독한 냉기가 과거의 온기를 전부 집어삼켰을지언정, 사람들은 가슴속에 강렬한 욕망과 애달픔을 품고 있다. 이들의 곁에 선 채 구세계가 얼음 위에서 불타는 모습을 직접 목도하라."
+        },
+    ]
+    
+    const taps = document.querySelector(".tap");
+        taps.innerHTML = tourists.map((t,index)=>{
+            return `<div class = "tournav ${index===0?"active":""}"> ${t.title} </div>`;
+            console.log(index);
+            
+        }).join("");
+
+        const contents = document.querySelector(".content");
+        contents.innerHTML = tourists.map((tour,index)=>{
+            return `<ul class = "tourcard ${index === 0 ? "active" : ""} "> <div id = "tcardArea">
+                ${tour.map.map((m)=>{
+                    return `<li><img src="${m.url}" alt=""> <p>${m.name}</p></li>`;
+                }).join("")}
+                </div><h2>${tour.content}</h2></ul>`;
+        }).join("");
+    
+        const nav = document.querySelectorAll(".tournav");
+        const tcard = document.querySelectorAll(".tourcard");
+
+        function Clicks(index){
+            nav.forEach((n)=>{n.classList.remove("active");})
+            tcard.forEach((t)=>{t.classList.remove("active");})
+
+            nav[index].classList.add("active");
+            tcard[index].classList.add("active");
+        }
+        nav.forEach((n,index)=>{
+            n.addEventListener("click",()=>{
+                Clicks(index);
+            });
+        })
+
+        // 햄버거 메뉴
+        const hambtn = document.querySelector(".hamburger");
+        const momenu = document.querySelector(".mobil_menu");
+        const overlay = document.querySelector(".overlay");
+
+        hambtn.addEventListener("click",()=>{
+            momenu.classList.add("active");
+            overlay.classList.add("active");
+            // overlay.style.display = "block";
+            hambtn.classList.add("active");
+            document.body.style.overflow = "hidden";
+        });
+
+        overlay.addEventListener("click",()=>{
+            momenu.classList.remove("active");
+            overlay.classList.remove("active");
+            // overlay.style.display = "block";
+            hambtn.classList.remove("active");
+            document.body.style.overflow = "";
+        });
+
+
+    </script>
+
+</body>
+</html>
