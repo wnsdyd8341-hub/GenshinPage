@@ -26,9 +26,50 @@
     left: 42%;
     
 }
+.leftbox1 p, .rightbox1 p{
+    left: 35%;
+}
+.leftbox2 p{
+    left: 37%;
+}
+.rightbox2 p{
+    left: 28%;
 }
 
-
+}
+@media (max-width:550px){
+    .leftbox1 p, .rightbox1 p{
+    left: 30%;
+}
+.leftbox2 p{
+    left: 32%;
+}
+ .rightbox2 p{
+    left: 18%;
+}
+}
+@media (max-width:440px){
+    .leftbox1 p, .rightbox1 p{
+    left: 25%;
+}
+.leftbox2 p{
+    left: 27%;
+}
+ .rightbox2 p{
+    left: 11%;
+}
+@media (max-width:400px){
+    .leftbox1 p, .rightbox1 p{
+    left: 22%;
+    top: 33%;
+}
+.leftbox2 p{
+    left: 24.5%;
+}
+ .rightbox2 p{
+    left: 6%;
+}
+}
 }
 @media (max-width : 390px){
     #tcardArea{ 
@@ -45,4 +86,16 @@
     left: 38%;
     
 }
+    .leftbox1 p, .rightbox1 p{
+        left: 37%;
+    }
+    .leftbox2 p{
+        left: 40%;
+    }
+    .rightbox2 p{
+        left: 33%;
+    }
+
+}
+
 }
