@@ -13,15 +13,16 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
     />
-    
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- 파비콘 -->
+    <link rel="icon" href="Images/Genshin_Logo.webp">
 </head>
 <body>
     <div class="wrap">
+        <button id="gotop"><i class="fa-solid fa-arrow-up"></i></button>
         <header>
             <div class="logoArea">
-                <a href="#"><img src="Images/Genshin_Logo.webp" alt="원신 로고"></a>
-                <p>원신</p>
+                <div class="container-sGLK6x prod-logos-2ivtAv"><a class="anchor-img-2u0Ts4 prod-logo-1pfLvP" target="_blank" style="cursor:default" rel="noopener noreferrer"><img class="img-2yo9WX loaded-2cKQIN" data-src="https://fastcdn.hoyoverse.com/mi18n/resource-trans/upload/event/2023/07/10/1ec0fea70963bec743fabc3063ef4c78_7817154868240918213.png" src="https://fastcdn.hoyoverse.com/mi18n/resource-trans/upload/event/2023/07/10/1ec0fea70963bec743fabc3063ef4c78_7817154868240918213.png"></a></div>
             </div>
             <nav>
                 <a href="#">몬드</a>
@@ -141,11 +142,8 @@
                 <!-- js에서 내용삽입 -->   
                 </div>
             </div>
-            <div class="infobox">
-                <p>이름</p>
-                <p>몬스터설명 : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, magnam.</p>
-                <p>드랍템</p>
-            </div>
+            <!-- 투어 이미지 누를때 나오는 모달 -->
+            
 
             <!-- 몬스터 부분부터 코딩 figma 참고 사진 새로 넣어야함 -->
             <div class="monsterArea">
@@ -161,7 +159,7 @@
                                 <div class="monsterText">
                                     <h2>물 슬라임</h2>
                                     <p>자연 속에 흩어져있던 물 원소가 침적되어 형성된 조그만 마물</p>
-                                    <button id="monsterinfo">자세히보기</button>
+                                    <!-- <button id="monsterinfo">자세히보기</button> -->
                                 </div>
                             </div>
                         </div>
@@ -173,7 +171,7 @@
                                 <div class="monsterText">
                                     <h2>물 슬라임</h2>
                                     <p>자연 속에 흩어져있던 물 원소가 침적되어 형성된 조그만 마물</p>
-                                    <button id="monsterinfo">자세히보기</button>
+                                    <!-- <button id="monsterinfo">자세히보기</button> -->
                                 </div>
                             </div>
                         </div>
@@ -185,7 +183,7 @@
                                 <div class="monsterText">
                                     <h2>물 슬라임</h2>
                                     <p>자연 속에 흩어져있던 물 원소가 침적되어 형성된 조그만 마물</p>
-                                    <button id="monsterinfo">자세히보기</button>
+                                    <!-- <button id="monsterinfo">자세히보기</button> -->
                                 </div>
                             </div>
                         </div>
@@ -197,7 +195,7 @@
                                 <div class="monsterText">
                                     <h2>물 슬라임</h2>
                                     <p>자연 속에 흩어져있던 물 원소가 침적되어 형성된 조그만 마물</p>
-                                    <button id="monsterinfo">자세히보기</button>
+                                    <!-- <button id="monsterinfo">자세히보기</button> -->
                                 </div>
                             </div>
                         </div>
@@ -215,8 +213,17 @@
                 <h2>Local Specialties</h2>
                 <div class="foodBox">
                     <div class="leftfood">
-                        <img src="Images/20261022003947.png" alt="">
-                        <img src="Images/20261022004101.png" alt="">
+                        <div class="leftbox1">
+                            <div class="oparea"></div>
+                            <img src="Images/20261022003947.png" alt="">
+                            <p>다운와이너리</p>
+                        </div>
+                        <div class="leftbox2">
+                            <div class="oparea"></div>
+                            <img src="Images/20261022004101.png" alt="">
+                            <p>장미의 여관</p>
+                        </div>
+                        
                     </div>
                     <div class="swiper FoodSwiperArea">
                         <div class="swiper-wrapper">
@@ -227,8 +234,16 @@
                         </div> 
                     </div>
                     <div class="rightfood">
-                        <img src="Images/20261022004156.png" alt="">
-                        <img src="Images/20261022004553.png" alt="">
+                        <div class="rightbox1">
+                            <div class="oparea"></div>
+                            <img src="Images/20261022004156.png" alt="">
+                            <p>몬드 대성당</p>
+                        </div>
+                        <div class="rightbox2">
+                            <div class="oparea"></div>
+                            <img src="Images/20261022004553.png" alt="">
+                            <p>다운와이너리 포도밭</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -237,11 +252,14 @@
         </main>
 
         <footer>
-            <p>aaa</p>
-            <p>aaa</p>
-            <p>aaa</p>
-            <p>aaa</p>
-
+            <div class="linkArea">
+                <a href="https://genshin.hoyoverse.com/pc-launcher/?utm_source=KR_google_KR_search_GI001&mhy_trace_channel=ga_channel&new=1&gad_source=1&gad_campaignid=17652285031&gbraid=0AAAAABgn-bobargO_bMpgC4_gUzGTPc6I&gclid=Cj0KCQjw6ObWBhDDARIsAFdfcUg6dove9GYz1zsA3NKK7J5xmIguoNiBetnzpFFaTZryZzun4XxKKLIaAr9yEALw_wcB#/GI001"><i class="fa-regular fa-house"></i></a>
+                <a href="https://www.youtube.com/@Genshinimpact_KR"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://x.com/genshinimpactkr"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            <div class="addressArea">
+                <img class="img-2yo9WX loaded-2cKQIN" data-src="https://fastcdn.hoyoverse.com/mi18n/resource-trans/upload/event/2021/12/29/eaa64d81ae6a7318a6afb91cbffd83a4_118924438105936743.png" src="https://fastcdn.hoyoverse.com/mi18n/resource-trans/upload/event/2021/12/29/eaa64d81ae6a7318a6afb91cbffd83a4_118924438105936743.png">
+            </div>    
         </footer>
 
 
@@ -297,6 +315,33 @@
         },
     });
 
+
+    // 고탑
+    window.addEventListener("scroll",()=>{
+        const gotop_btn = document.getElementById("gotop"); 
+        const tops = document.documentElement.scrollTop;
+        console.log(tops);
+        
+        if(tops>300){
+            gotop.classList.add("active");
+        }
+        else{
+            gotop.classList.remove("active");
+        }
+        gotop_btn.addEventListener("click",()=>{
+            // 윈도우화면의 스크롤을 보내겠다
+            window.scrollTo({
+                // 탑을 0으로 보내서 맨위로 올라감
+                top:0,
+                // 이것도 scroll-behavior: smooth; 이거랑 같음
+                // behavior:"smooth"
+            });
+        });
+    });
+
+
+
+
     // 투어리스트 2차원배열
     // 탭을 사용해서 2차원배열로 사용
     const tourists = [
@@ -310,58 +355,58 @@
         },
         {
         title : "리월", 
-        map : [{name : "바람이 시작되는곳" , url :"Images/Liyue1.png"},
+        map : [{name : "유릉항" , url :"Images/Liyue1.png"},
         {name : "드래곤 스파인" , url :"Images/Liyue2.png"},
-        {name : "바람 드래곤의 폐허" , url :"Images/Liyue3.png"}
-        ,{name : "공간의 신전" , url :"Images/Liyue4.png"}],
+        {name : "층암거연" , url :"Images/Liyue3.png"}
+        ,{name : "운릉봉" , url :"Images/Liyue4.png"}],
         content:"티바트 대륙 동쪽에 위치한 풍요로운 항구 도시.우뚝 솟아있는 산기슭과 석림, 생기 넘치는 강가와 드넓은 평원이 만든 리월의 다양한 지형은 계절마다 다채로운 풍경을 보여준다.산과 돌이 이뤄낸 장관 속엔 얼마나 많은 바위 신의 오랜 선물들이 사람들을 기다리고 있을까?"    
         },
         {
         title : "이나즈마", 
-        map : [{name : "바람이 시작되는곳" , url :"Images/Inazuma1.png"},
-        {name : "드래곤 스파인" , url :"Images/Inazuma2.png"},
-        {name : "바람 드래곤의 폐허" , url :"Images/Inazuma3.png"}
-        ,{name : "공간의 신전" , url :"Images/Inazuma4.png"}],
+        map : [{name : "벚꽃나무 신사" , url :"Images/Inazuma1.png"},
+        {name : "산호궁" , url :"Images/Inazuma2.png"},
+        {name : "야구무사" , url :"Images/Inazuma3.png"}
+        ,{name : "티타라스해" , url :"Images/Inazuma4.png"}],
         content:"티바트 대륙 극동에 위치한 봉쇄된 제도끝없는 뇌우를 뚫고 벚꽃의 가호가 서린 열도에 들어서면 둘러싸인 사취, 우뚝 솟은 절벽 그리고 그윽한 산속에서 위대하신 나루카미 쇼군이 추구하는 영원을 확인할 수 있다."
         },
         {
         title : "수메르", 
-        map : [{name : "바람이 시작되는곳" , url :"Images/Sumeru1.png"},
-        {name : "드래곤 스파인" , url :"Images/Sumeru2.png"},
-        {name : "바람 드래곤의 폐허" , url :"Images/Sumeru3.png"}
-        ,{name : "공간의 신전" , url :"Images/Sumeru4.png"}],
+        map : [{name : "다카바타산" , url :"Images/Sumeru1.png"},
+        {name : "수림" , url :"Images/Sumeru2.png"},
+        {name : "바나라나" , url :"Images/Sumeru3.png"}
+        ,{name : "꽃바다" , url :"Images/Sumeru4.png"}],
         content:"티바트 대륙 중서부에 위치한 학술의 도시.우거진 우림과 황량한 사막이 공존하는 신비한 나라. 무수한 지혜의 열매가 이곳에서 자라나고 묻혔다. 숲을 가로질러 학술의 계단을 오르든 사막 깊은 곳에서 적토의 유적을 발굴하든, 먼 곳에서 온 여행자는 모두 이곳에서 귀중한 지혜를 얻을 수 있을 것이다."
         },
         {
         title : "폰타인", 
-        map : [{name : "바람이 시작되는곳" , url :"Images/Fontaine1.png"},
-        {name : "드래곤 스파인" , url :"Images/Fontaine2.png"},
-        {name : "바람 드래곤의 폐허" , url :"Images/Fontaine3.png"}
-        ,{name : "공간의 신전" , url :"Images/Fontaine4.png"}],
+        map : [{name : "폰타인 해안" , url :"Images/Fontaine1.png"},
+        {name : "가라앉은 탑" , url :"Images/Fontaine2.png"},
+        {name : "깊은 땅" , url :"Images/Fontaine3.png"}
+        ,{name : "메로피드요새" , url :"Images/Fontaine4.png"}],
         content:"티바트 중부에 있는 지상의 바다.물의 흐름을 따라 들판과 깊은 숲, 모래바다를 지나면 대륙의 물줄기가 시작된 땅에 도착한다. 폭포 정상과 고원 위에 위치한 바다 도시의 깊은 곳에서, 들어본 적 없는 이야기와 오래전에 잊힌 전설이 물속에 가라앉아 사라져 버린 나라처럼 여행자를 갈망하고 있다."
         },
         {
         title : "나타", 
-        map : [{name : "바람이 시작되는곳" , url :"Images/Natlan1.png"},
-        {name : "드래곤 스파인" , url :"Images/Natlan2.png"},
-        {name : "바람 드래곤의 폐허" , url :"Images/Natlan3.png"}
-        ,{name : "공간의 신전" , url :"Images/Natlan.png"}],
+        map : [{name : "꽃날개부족땅" , url :"Images/Natlan1.png"},
+        {name : "화산" , url :"Images/Natlan2.png"},
+        {name : "샛물무리" , url :"Images/Natlan3.png"}
+        ,{name : "나타마을" , url :"Images/Natlan.png"}],
         content:"티바트 대륙 서부에 위치한 맹세의 나라.불빛의 인도를 따라 협곡과 계곡을 지나면 펼쳐지는 그곳은 찬란한 횃불이 타오르는 땅이자, 만인의 불꽃이 하나 되는 곳이다.용들이 활보하는 드넓은 평원에서 어둠에 맞서는 용사들과 함께 고대 전쟁의 끝을 지켜보도록 하자."
         },
         {
         title : "노드크라이", 
-        map : [{name : "바람이 시작되는곳" , url :"Images/Nod-Krai1.png"},
-        {name : "드래곤 스파인" , url :"Images/Nod-Krai2.png"},
-        {name : "바람 드래곤의 폐허" , url :"Images/Nod-Krai3.png"}
-        ,{name : "공간의 신전" , url :"Images/Nod-Krai4.png"}],
+        map : [{name : "서리달아이" , url :"Images/Nod-Krai1.png"},
+        {name : "달빛의 구역" , url :"Images/Nod-Krai2.png"},
+        {name : "우인단기지" , url :"Images/Nod-Krai3.png"}
+        ,{name : "서리달" , url :"Images/Nod-Krai4.png"}],
         content:"티바트 대륙 서북부에 위치한 달빛의 땅.새로운 달이 자아낸 은빛 실을 따라 매서운 칼바람과 황량한 툰드라를 가로지르면, 부서진 거울과도 같은 호수 위로 반사되는 영원불변의 서릿빛 광채가 시야에 들어온다. 낮은 춥고 짧지만… 기나긴 밤이 찾아오면 달빛과 노랫소리가 부드럽게 여행객의 뺨을 어루만진다. 자, 이제 드높은 탑에 불을 밝히자. 진정한 달빛이 이 땅을 비추는 그날까지."
         },
         {
         title : "스네즈나야", 
-        map : [{name : "바람이 시작되는곳" , url :"Images/Snezhnaya1.png"},
-        {name : "드래곤 스파인" , url :"Images/Snezhnaya2.png"},
-        {name : "바람 드래곤의 폐허" , url :"Images/Snezhnaya3.png"}
-        ,{name : "공간의 신전" , url :"Images/Snezhnaya4.png"}],
+        map : [{name : "하얀챠르의 성" , url :"Images/Snezhnaya1.png"},
+        {name : "음침한 숲" , url :"Images/Snezhnaya2.png"},
+        {name : "얼음궁전" , url :"Images/Snezhnaya3.png"}
+        ,{name : "화로" , url :"Images/Snezhnaya4.png"}],
         content:"티바트 대륙 북부에 위치한 영원한 겨울의 나라.이곳의 백성들은 혹한도, 재앙도 두려워하지 않는다. 그들은 포효하는 눈보라를 뚫고, 침묵이 내려앉은 장엄한 설원을 지나——강철과 강철이 부딪히는 도시 너머의… 신조차 외면한 혹독한 겨울을 향해 나아간다. 고개를 들어 티끌 한 점 없는 창백한 별을 바라보라. 비록 혹독한 냉기가 과거의 온기를 전부 집어삼켰을지언정, 사람들은 가슴속에 강렬한 욕망과 애달픔을 품고 있다. 이들의 곁에 선 채 구세계가 얼음 위에서 불타는 모습을 직접 목도하라."
         },
     ]

@@ -1,3 +1,7 @@
+
+html{
+    scroll-behavior: smooth;
+}
 header{
     background-color: #fff;
     width: 100%;
@@ -12,12 +16,13 @@ header{
     height: 80px;
     padding: 2%;
     margin:auto;
+    background-color: #333;
 }
-.logoArea img{
+/* .logoArea img{
     width: 30px;
     height: 30px;
     display: block;
-}
+} */
 nav{
     display: flex;
     align-items: center;
@@ -83,4 +88,24 @@ nav{
 .mobil_menu li a{
     display: block;
     padding: 16px 0px;
+}
+
+#gotop{
+    display: none;
+    z-index: 9999;
+    position: fixed;
+    right: 38px;
+    bottom: 30px;
+    aspect-ratio: 1/1;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+#gotop:hover{
+    cursor: pointer;
+}
+#gotop.active{
+    display: block;
 }
