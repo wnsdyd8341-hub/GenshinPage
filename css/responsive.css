@@ -21,6 +21,11 @@
     /* 갭고민 */
     gap: 1%;
 }
+.swiper-slide .textArea{
+    
+    left: 42%;
+    
+}
 }
 
 
@@ -35,4 +40,9 @@
     nav{
         display: none;
     }
+    .swiper-slide .textArea{
+    
+    left: 38%;
+    
+}
 }

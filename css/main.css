@@ -26,6 +26,7 @@ p{
     justify-content: center;
     align-items: center;
     position:relative
+    
 }
 
 .swiper-slide img {
@@ -36,14 +37,18 @@ p{
 }
 .swiper-slide .textArea{
     position:absolute;
+    display: block;
     top:23% ;
-    left: 46%;
+    left: 45.5%;
+    text-align: center;
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+.mainImgArea img{
+    min-width: 390px;
+}
 
 .touristArea{
     padding: 6%;

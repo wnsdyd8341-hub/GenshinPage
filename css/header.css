@@ -18,6 +18,11 @@ header{
     margin:auto;
     background-color: #333;
 }
+.logoArea img{
+    height: 100%;
+    
+    display: block;
+}
 /* .logoArea img{
     width: 30px;
     height: 30px;
